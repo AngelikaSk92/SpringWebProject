@@ -24,12 +24,17 @@ public class DBKnightRepository implements KnightRepository{
     }
 
     @Override
-    public void deleteKnight(String name) {
+    public void deleteKnight(Integer id) {
 
     }
 
     @Override
     public void build() {
 
+    }
+
+    @Override
+    public Knight getKnightById(Integer id) {
+        return null;
     }
 }

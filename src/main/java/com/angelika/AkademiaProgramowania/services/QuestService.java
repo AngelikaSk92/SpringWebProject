@@ -8,9 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
-/**
- * Created by &[User] and &[Date].
- */
 @Service
 public class QuestService {
 
